@@ -22,5 +22,10 @@ Instalar Git
 Instalar Visual Studio Code
 
 Para instalar se debe clonar el directorio y tener instaldo node v10.22.0, ionic@4.12.0 y cordova 9.0.0.
+
+Dentro del directorio aplicar: npm install
+
+Luego, ionic serve
+
 Para generar el apk de la app debe estar instalado Android Studio y Java Development Kit (JDK)(mínimo versión 8)
 Y un dispositivo disponible
