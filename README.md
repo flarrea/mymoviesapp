@@ -23,9 +23,34 @@ Instalar Visual Studio Code
 
 Para instalar se debe clonar el directorio y tener instaldo node v10.22.0, ionic@4.12.0 y cordova 9.0.0.
 
+npm install -g cordova @ionic/cli
+
 Dentro del directorio aplicar: npm install
 
-Luego, ionic serve
+Luego: ionic serve, para verla en el explorador.
 
 Para generar el apk de la app debe estar instalado Android Studio y Java Development Kit (JDK)(mínimo versión 8)
-Y un dispositivo disponible
+Y un dispositivo disponible. Para MacOS debe estar instaldo XCode
+
+Para Android:
+
+Dentro del directorio de la app:
+
+ionic cordova platform add android
+ionic cordova build android
+
+adb install platforms/android/app/build/outputs/apk/debug/app-debug.apk
+
+Para iOS
+
+npm install -g ios-sim
+npm install -g ios-deploy
+
+ionic cordova platform add ios
+ionic cordova build ios
+
+
+Luego, desde XCode debe abrirse miproyecto.xcodeproj
+
+
+
