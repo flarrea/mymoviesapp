@@ -1,4 +1,4 @@
-# mymoviesapp
+# MyMoviesApp
 
 Demo de MyMoviesApp una aplicación con Ionic 4 y Angular
 
