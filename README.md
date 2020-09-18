@@ -20,6 +20,7 @@ Java Development Kit (JDK)(mínimo versión 8)</br>
 Instalar Git</br>
 Instalar Visual Studio Code</br>
 
+######################################################################################
 <p align="justify">Para instalar se debe clonar el directorio y tener instaldo node v10.22.0, ionic@4.12.0 y cordova 9.0.0.</p>
 
 npm install -g cordova @ionic/cli</br>
@@ -28,6 +29,7 @@ Dentro del directorio aplicar: npm install</br>
 
 Luego: ionic serve, para verla en el explorador.</br>
 
+######################################################################################
 <p align="justify">Para generar el apk de la app debe estar instalado Android Studio y Java Development Kit (JDK)(mínimo versión 8)
 Y un dispositivo disponible. Para MacOS debe estar instaldo XCode</p>
 
