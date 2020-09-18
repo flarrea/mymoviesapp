@@ -1,9 +1,9 @@
 # MyMoviesApp
+######################################################################################
+<p align="justify">Demo de MyMoviesApp una aplicación con Ionic 4 y Angular</p>
 
-Demo de MyMoviesApp una aplicación con Ionic 4 y Angular
-
-La aplicación consume la api de omdbapi y despliega los resultados a partir de una búsqueda según las categorías definidas.
-Luego, se puede ver el detalle de la opción seleccionada y agregarla a los favoritos.
+<p align="justify">La aplicación consume la api de omdbapi y despliega los resultados a partir de una búsqueda según las categorías definidas.</p>
+<p align="justify">Luego, se puede ver el detalle de la opción seleccionada y agregarla a los favoritos.</p>
 
 Utiliza la rest api de omdbapi http://www.omdbapi.com/
 
