@@ -21,7 +21,7 @@ Instalar Git</br>
 Instalar Visual Studio Code</br>
 
 ######################################################################################
-<p align="justify">Para instalar se debe clonar el directorio y tener instaldo node v10.22.0, ionic@4.12.0 y cordova 9.0.0.</p>
+<p align="justify">Para instalar se debe clonar el directorio y tener instalado node v10.22.0, ionic@4.12.0 y cordova 9.0.0.</p>
 
 npm install -g cordova @ionic/cli</br>
 
