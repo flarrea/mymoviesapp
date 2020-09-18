@@ -9,48 +9,47 @@ Utiliza la rest api de omdbapi http://www.omdbapi.com/
 
 El entorno de desarrollo fue:
 
-Windows 10
+Windows 10</br>
+ionic@4.12.0</br>
+node v10.22.0</br>
+npm 6.9.0</br>
+cordova 9.0.0</br>
 
-ionic@4.12.0
-node v10.22.0
-npm 6.9.0
-cordova 9.0.0
+Android Studio</br>
+Java Development Kit (JDK)(mínimo versión 8)</br>
+Instalar Git</br>
+Instalar Visual Studio Code</br>
 
-Android Studio
-Java Development Kit (JDK)(mínimo versión 8)
-Instalar Git
-Instalar Visual Studio Code
+<p align="justify">Para instalar se debe clonar el directorio y tener instaldo node v10.22.0, ionic@4.12.0 y cordova 9.0.0.</p>
 
-Para instalar se debe clonar el directorio y tener instaldo node v10.22.0, ionic@4.12.0 y cordova 9.0.0.
+npm install -g cordova @ionic/cli</br>
 
-npm install -g cordova @ionic/cli
+Dentro del directorio aplicar: npm install</br>
 
-Dentro del directorio aplicar: npm install
+Luego: ionic serve, para verla en el explorador.</br>
 
-Luego: ionic serve, para verla en el explorador.
+<p align="justify">Para generar el apk de la app debe estar instalado Android Studio y Java Development Kit (JDK)(mínimo versión 8)
+Y un dispositivo disponible. Para MacOS debe estar instaldo XCode</p>
 
-Para generar el apk de la app debe estar instalado Android Studio y Java Development Kit (JDK)(mínimo versión 8)
-Y un dispositivo disponible. Para MacOS debe estar instaldo XCode
+Para Android:</br>
 
-Para Android:
+Dentro del directorio de la app:</br>
 
-Dentro del directorio de la app:
+ionic cordova platform add android</br>
+ionic cordova build android</br>
 
-ionic cordova platform add android
-ionic cordova build android
-
-adb install platforms/android/app/build/outputs/apk/debug/app-debug.apk
+adb install platforms/android/app/build/outputs/apk/debug/app-debug.apk</br>
 
 Para iOS
 
-npm install -g ios-sim
-npm install -g ios-deploy
+npm install -g ios-sim</br>
+npm install -g ios-deploy</br>
 
-ionic cordova platform add ios
-ionic cordova build ios
+ionic cordova platform add ios</br>
+ionic cordova build ios</br>
 
 
-Luego, desde XCode debe abrirse miproyecto.xcodeproj
+Luego, desde XCode debe abrirse miproyecto.xcodeproj</br>
 
 
 
